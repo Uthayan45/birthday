@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Birthday Surprise Card</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    
+    <div class="flowers"></div> 
+    <div class="emoji-sparks"></div>
+
+  <div class="fireworks"></div>
+
+  <div class="card-container" onclick="flipCard()">
+    <div class="card" id="birthdayCard">
+      <div class="front">
+        <h1>🎁 Tap to Open <br> Sanazz</h1>
+      </div>
+      <div class="back">
+        <img src="images/WhatsApp Image 2025-05-07 at 22.11.05_23c9b1f5.jpg" alt="Birthday" class="birthday-image"   style="width: 150px; height: 200px;" />
+
+        <h2>Happy Birthday! mentaley😂</h2>
+        <p>Cheers to you! Have the best birthday ever.🎉🎂</p>
+        <button onclick="showModal(event)" >Sanazz click</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal hidden" id="popup">
+    <div class="modal-content">
+      <h3>🎈 Special Wish Just for You!</h3>
+      <p>🥳🍫Happy Birthday sanazzz ✨💫🎂life long stay blessed good bless you✨💫🤣<br>
+         ~by fearless
+      </p>
+<a href="gift.html"> <button>gift</button> </a>
+      <button onclick="closeModal()">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
